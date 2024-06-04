@@ -16,6 +16,11 @@ function HookMouse(){
     useEffect(()=>{
         console.log('MOuseEvent called')
         window.addEventListener('mousemove',logMousePosition)
+
+        return()=>{
+            console.log("removing mouse event")
+            window.removeEventListener('mousemove',logMousePosition)
+        }
     },[])
 
 
