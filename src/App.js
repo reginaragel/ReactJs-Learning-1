@@ -1,8 +1,9 @@
 // import logo from './logo.svg';
 import React from 'react';
 import './App.css';
-import Counter1 from './components/Counter1';
-import Counter2 from './components/Counter2';
+import UserForm from './components/UserForm';
+// import Counter1 from './components/Counter1';
+// import Counter2 from './components/Counter2';
 // import HookTimer from './components/HookTimer';
 // import DocTitleOne from './components/DocTitleOne';
 // import DocTitleTwo from './components/DocTitleTwo';
@@ -65,8 +66,9 @@ function App() {
       {/* <HookTimer/> */}
       {/* <DocTitleOne/>
       <DocTitleTwo/> */}
-      <Counter1/>
-      <Counter2/>
+      {/* <Counter1/>
+      <Counter2/> */}
+      <UserForm/>
 
     </div>
     
